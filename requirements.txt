@@ -1,0 +1,433 @@
+We are looking for a developer with experience with MySQL db's, websites  and scripting 
+Task: 
+create a script that can collect data from web pages and insert them into a MySQL database
+
+
+Please contact me directly for more details. 
+
+Noam
+==================================================================================================================
+
+Hi,
+
+I can do this for you. However, the data collection from websites part needs to be written in a high level language. I would prefer to use perl or python. If you have preference for some other language, I would be ok with it too. The script written in high level language will interact with the mysql backend DB to store the information collected. As for setting up the system, I will take care of that for you.
+
+Please let me know if you are interested in my bid.
+
+Thanks,
+Supriyo
+==================================================================================================================
+
+Hi 
+
+I would like to discuss this  further with you 
+
+Can you talk on Skype ? 
+What is you user name ...
+
+Thanks 
+My Skype is : Noamtur
+
+Thanks 
+Noam 
+===================================================================================================================
+Hi,
+
+I am available on skype as "supmit". Looking forward to discuss the matter with you.
+
+Thanks,
+Supriyo
+
+===================================================================================================================
+Hi
+
+Please review and accept my offer.
+
+Noam Turgeman
+
+OFFER DETAILS
+
+Client: noam Turgeman (INSIDENOLOGY.COM)
+Contractor: Supriyo Mitra  
+Job Posting: Script data collector
+Contract Title: Script data collector
+Hourly Rate: $10.00/hr ($9.00 paid to contractor)
+Weekly Limit: 15 hours / week
+
+==================================================================================================================
+
+[8/8/2013 1:50:08 AM] supmit: Hi there, I wanted to discuss the project you posted on odesk (mysql script developer)
+[8/8/2013 3:06:01 AM] noamtur: Hi supmit, I'd like to add you as a contact. noamtur
+[8/8/2013 3:07:28 AM] *** supmit has shared contact details with noamtur. ***
+[8/8/2013 3:07:43 AM] noamtur: Are you available now ?
+[8/8/2013 3:08:11 AM] noamtur: Ok
+[8/8/2013 3:08:17 AM] supmit: yeah
+[8/8/2013 3:11:33 AM] noamtur: So, we are looking for someone to do a starting project , which have other parts in the future , but for the current one, we are looking to create a script to collect from 3 different stores ( their website ) products list and their prices and populate our db with that information , this script will run automatically every few days to keep the data current , is that something you think is in your scope of knowledge ?
+[8/8/2013 3:18:58 AM] supmit: sure... i can do that
+[8/8/2013 3:19:36 AM] noamtur: This is one of many parts of the big project , can you give me an estimate of the time
+[8/8/2013 3:19:45 AM] noamtur: ( hr) it will take you /
+[8/8/2013 3:19:47 AM] noamtur: ?
+[8/8/2013 3:20:26 AM] supmit: yes... it should take me 15 hours... I will spread that over 3 days
+[8/8/2013 3:20:45 AM] noamtur: whats your hr rate /
+[8/8/2013 3:20:45 AM] noamtur: ?
+[8/8/2013 3:21:34 AM] supmit: I will charge @ 12 USD / hr
+[8/8/2013 3:23:37 AM] noamtur: First, just to clarify, the information will be retrieved from website (not db.) second we will need few attribute (product, category, price and units)
+[8/8/2013 3:23:54 AM] supmit: ok
+[8/8/2013 3:24:52 AM] noamtur: we can do 10 $ hr for start and change if you do good work during the project as I said its a part of a big one ... do agree ?
+[8/8/2013 3:24:54 AM] noamtur: you
+[8/8/2013 3:25:47 AM] supmit: ok...
+[8/8/2013 3:26:02 AM] supmit: ok
+[8/8/2013 3:28:27 AM] noamtur: It’s a MySQL db, and I will send you the log to it today + plus hire you on odesk ,and the information of the 3 sites ... take into consideration when you build this script we will need to expend it in the near future to many other sites..
+[8/8/2013 3:29:14 AM] noamtur: what programing language are you planning using ?
+[8/8/2013 3:29:28 AM] supmit: ok... in that case I will try to use one of the popularframeworks... no problem
+[8/8/2013 3:29:35 AM] supmit: perl
+[8/8/2013 3:29:41 AM] noamtur: ok
+[8/8/2013 3:30:58 AM] noamtur: when can you start after the above is full field ? ( I will send you the information in a few hours ) ?
+[8/8/2013 3:32:21 AM] supmit: I will start tomorrow evening... I have a project that needs wrapping up before that deadline passes tomorrow morning
+[8/8/2013 3:33:18 AM] noamtur: send me your email, so I could send you the information : confirm and send me start date and time , ok ?
+[8/8/2013 3:33:32 AM] supmit: ok...
+[8/8/2013 3:33:48 AM] supmit: my email is supmit@gmail.com
+[8/8/2013 3:34:13 AM] noamtur: ok , will talk later , when you recive the email from me
+[8/8/2013 3:36:06 AM] supmit: how long will that take.... actually it is 3:00 am here and I was thinking of sleeping a bit... if you can send me the email rightaway, I will reply to it now... otherwise I will look at it today morning
+[8/8/2013 3:37:34 AM] noamtur: I will send you the email later , look at it after you sleep , will talk tomrrow ( you are going to start anyway only tomrrow ? no ? )
+[8/8/2013 3:37:48 AM] supmit: right
+[8/8/2013 3:37:54 AM] noamtur: ok
+[8/8/2013 11:39:46 PM] noamtur: Please send me the schedule ( time you start and plan to compete )
+[8/9/2013 3:20:08 AM] noamtur: where you able to log in to the mysql server  ?
+[8/9/2013 11:01:29 PM] supmit: Yes, just now I logged in.
+
+
+======================================================================================================================
+
+Hi 
+
+So 
+MySQL access: 
+https://p3nlmysqladm002.secureserver.net/dgrid50/203/index.php
+user: ShoperTUR
+Password: FJD#@tBO5
+
+Stores to collect data from: 
+http://www.safeway.com/IFL/Grocery/Home
+
+http://www.costco.com/
+
+http://www.walmart.com/
+
+Information to collect ( only food groceries )  : 
+Product
+Brand  
+Unit 
+Price ( per unit ) 
+
+I hired you already in Odesk 
+
+Let me know when do you plan on starting, estimate time ( date) of completion 
+and confirm the above information 
+
+P.S my business partner ( cc on this email ) he might had comments or instructions  , see them as if they are coming from me 
+
+Thanks 
+======================================================================================================================
+Hi Noam,
+
+Thanks for hiring me.
+
+I have just started working on your project. It should take approximately 5 days to complete the first cut of your entire project. So I am going to come to you with first version on 14th August. Possibly I will demonstrate it  to you using teamviewer. As for comments from your partner, I am ok with it.
+
+Thanks,
+Supriyo
+======================================================================================================================
+Ok, 
+But didn't you say it will take you 3 days  ?
+Let me know if you can log in to SQL server and work on it 
+One more attribute I forgot to mention which we will like to have in our db is the location of the stores 
+
+Thanks
+
+======================================================================================================================
+Yes, I said 3 days and I will complete it in 3 days, not 5 days. I will add in location along with the rest of the fields, so now it will be product, brand, unit price and location.
+
+Thanks,
+Supriyo
+======================================================================================================================
+Also, I could log in to your mysql account with the credentials you provided.
+
+https://p3nlmysqladm002.secureserver.net/dgrid50/203/index.php
+user: ShoperTUR
+Password: FJD#@tBO5
+
+Thanks,
+Supriyo
+======================================================================================================================
+
+
+DB Schema:
+----------
+
+Table: products
+
+Fields: productId, productName, category, price, srcWebsite, brand, location
+
+======================================================================================================================
+1. Find location and brand info for both walmart and costco.
+2. Find how many times 'update' happens.
+3. Estimate total number of products in walmart and costco separately.
+4. Code for Safeway.com.
+
+
+
+Home page ====>> Grocery Delivery =====>> Shop By Aisle
+
+
+select * from products where srcWebsite='safeway.com' and productName like '%';
+
+=======================================================================================================================
+
+[02-10-2013 03:24:07] supmit: Hi Noam, can we do the demo in about 15 mins from now?
+[03-10-2013 19:52:45] supmit: Hi Noam, can we do it today? Same time as we agreed upon (1:30 am Indian time)
+[03-10-2013 20:27:35] noamtur: Yes , is that 11 my time ?
+[03-10-2013 21:01:37] supmit: Hi Noam... are you there?
+[03-10-2013 21:02:12] noamtur: yes
+[03-10-2013 21:02:36] noamtur: can we talk in 1 hr ?
+[03-10-2013 21:02:43] noamtur: to do the demo  ?
+[03-10-2013 21:02:57] noamtur: plus talk about our next steps
+[03-10-2013 21:03:41] noamtur: hello!!
+[03-10-2013 21:06:45] supmit: sure
+[03-10-2013 21:09:04] supmit: So lets meet up in 1 hour
+[03-10-2013 21:31:42] noamtur: Ok
+[03-10-2013 21:41:45] noamtur: Actually 1 hr from now is not good for me , i have other meetings , can we do it 12 my time ?
+[03-10-2013 21:42:01] noamtur: Or 11:30
+[03-10-2013 21:43:25] supmit: sure... for you what time is it now?
+[03-10-2013 21:44:42] noamtur: 9:15
+[03-10-2013 21:44:45] noamtur: Am
+[03-10-2013 21:45:44] noamtur: But please from now on even if you have personal thing let me know , you can disappear , i must know whats going on
+[03-10-2013 21:46:36] supmit: ok, normally I do that... I will inform you whats going on
+[03-10-2013 21:46:47] supmit: from now
+[03-10-2013 21:47:58] supmit: yes, we can do it 11:30 your time
+[03-10-2013 21:48:35] supmit: so lets do it at that time
+[03-10-2013 21:49:08] noamtur: Great , we must work on a schedule for the future , will talk today at 11:30
+[03-10-2013 21:54:03] supmit: sure
+[00:16:55] supmit: Hi noam... can we start our session now?
+[00:21:59] supmit: It should be around 11:20 pm now at your place?
+[00:45:31] supmit: Hi, are you there?
+[00:48:16] supmit: hello!!!
+[00:56:09] supmit: Hi Noam...
+[01:08:50] supmit: I will be waiting for you... Let us have the session whenever you are free today. Just ping me, and we can start
+[01:38:02] noamtur: We scheduled for 11:00 i can redo at 13:30
+[01:40:24] supmit: what time will it be here?
+[01:40:33] supmit: what time is it now over there?
+[01:41:21] supmit: are you there?
+[01:44:36] supmit: actually I will have some issues at 13:30.... Can we make it a bit later in the day?
+[01:45:42] noamtur: In 30 min
+[01:46:22] supmit: Hi Noam, are you there? Let me just fix up the time for me.. what time is it now over there?
+[01:46:25] supmit: ok
+[01:46:28] supmit: thanks
+[01:46:47] noamtur: You will be there ?
+[01:47:51] supmit: ofcourse
+[01:48:04] supmit: I will be there most definitely
+[01:48:14] noamtur: Ok
+[02:12:45] supmit: Can we start now?
+[02:13:58] supmit: Hi are you there?
+[02:14:59] supmit: It should be 13:30 at your place now....
+[02:16:09] supmit: noam.. are you there??
+[02:17:57] supmit: Hello!!!
+[02:18:23] noamtur: hey
+[02:18:27] noamtur: yes
+[02:18:41] supmit: so let us share the screen first
+[02:18:42] noamtur: so can you log on to to my desktop
+[02:18:45] noamtur: server
+[02:19:12] supmit: perhaps yes, but you first login into my computer...
+[02:19:27] supmit: so that I can show you a demo and the data
+[02:19:31] noamtur: ok share your screen using Skype please
+[02:20:27] supmit: on skype we need to call in order to share the screen
+[02:20:38] supmit: can we do using teamviewer?
+[02:20:46] noamtur: let run it
+[02:20:52] noamtur: send me the code and password
+[02:20:56] supmit: ok
+[02:21:41] supmit: code is 214989276
+[02:21:47] supmit: pass is 6088
+[02:21:53] noamtur: one sec its loading
+[02:21:58] supmit: ok
+[02:23:16] supmit: can you connect?
+[02:24:01] noamtur: one sec its installing new laptop
+[02:24:08] supmit: ok
+[02:25:35] noamtur: connecting
+[02:25:45] supmit: ok
+[02:26:25] noamtur: password not working
+[02:26:46] supmit: Let me reopen give you a new one
+[02:27:08] noamtur: ok now i am connected
+[02:27:22] supmit: so can you see my screenye?s
+[02:27:24] supmit: yes
+[02:27:40] supmit: fine... so I will start by showing you the data first
+[02:27:58] noamtur: empty first
+[02:28:16] supmit: the location data for costco and walmart is stilll empty
+[02:28:43] supmit: for safeway, I am searching using the pin and that pin goes as location
+[02:29:33] supmit: now can you see the 'products' table.... where I am hovering my mouse
+[02:29:59] supmit: I will now show you safeway data
+[02:30:52] noamtur: ok , look at the table , what is unit ?
+[02:30:57] supmit: so for location only the pin code is present
+[02:31:02] noamtur: its suppose to be the type of units
+[02:31:26] supmit: unit is how much or how many comes as a sinle entity
+[02:31:59] noamtur: like pounds  ( .lb, kg and so on ) or if its apple for example units of number like 1 , 2
+[02:32:29] noamtur: units suppose to be type
+[02:32:33] noamtur: no ?
+[02:32:55] noamtur: for that products
+[02:32:56] supmit: not the number that comes as a single unit?
+[02:33:16] supmit: So in that case there will be products with no unit
+[02:33:33] noamtur: when you buy different products each product has its units type ( number , weight  and so )
+[02:33:36] supmit: yes youu are right...
+[02:33:49] supmit: that is what I have done
+[02:33:58] noamtur: thats what suppose to be the units , other wise hoe can you say 3 apples and 10 pound of meat
+[02:34:02] supmit: see the products with unit '1'...
+[02:34:09] noamtur: ok show me
+[02:35:03] supmit: can you see?
+[02:35:15] noamtur: so 1 is reference to one type of unit  ?
+[02:35:39] supmit: right... that product comes as 1 unit
+[02:35:47] noamtur: so where can I see a list of this refinances ?
+[02:35:53] noamtur: refrances
+[02:35:56] supmit: I will show you
+[02:37:15] supmit: See the products I am showing you now have different unita
+[02:37:21] noamtur: ya great
+[02:37:48] noamtur: i see many of them don't have brand , was thats the way it was on the site ?
+[02:38:16] supmit: yes, that brand is not displayed for some products
+[02:38:30] noamtur: what about location
+[02:38:46] supmit: There is no structural specification for brands in the products page
+[02:39:02] noamtur: ok
+[02:39:13] supmit: Location for safeway is 94704
+[02:39:51] supmit:  for costco and walmart there is no location info in the pages of the website
+[02:40:00] noamtur: ok
+[02:41:01] supmit: so even for safeway, I could only get the zip code...
+[02:41:32] supmit: nothing else... actually none of the websites link a product with a lovcation
+[02:41:50] noamtur: they do when you check on this sites if its available on store
+[02:41:57] noamtur: available to pick yp
+[02:41:59] noamtur: up
+[02:42:49] supmit: right! I have got that logic in place in the program... but neither 'costco' nor walmart shows this
+[02:42:51] noamtur: there should be some attribute it this sites backend that indicate its available for pickup location
+[02:43:36] supmit: no, I have really searched the websites quite hard... there is no link for a product to location
+[02:43:56] noamtur: ok, for now I will check that ,
+[02:44:03] supmit: safeowk aprovides warehouse locations...
+[02:44:19] supmit: but they do not link it to any specific product
+[02:44:21] noamtur: now how long did this search took , and how many results did it get
+[02:44:48] supmit: totally I found  6198 products...
+[02:45:03] supmit: the search takes about 30 mins
+[02:45:27] noamtur: ok , I want to talk to you about the next step for this project
+[02:45:38] supmit: it tallies with what I  found manually on the walmart site
+[02:45:41] supmit: ok
+[02:46:41] noamtur: we need to create an admin site , to be able to add products and search option to other places ( admin interface ) its can use some template that are out there
+[02:46:56] noamtur: with the option to add other stores and sites
+[02:46:56] supmit: ok
+[02:47:19] supmit: how would you like to add the products?
+[02:47:27] noamtur: can it be done , no coding for users using the admin.
+[02:47:28] noamtur: side
+[02:48:13] supmit: We can do it this way: there will be a script that will take the prodiucts data from the DB and post them on the admin site in bulk
+[02:48:41] noamtur: ya that i get , but do i add new site I want to collect data from ?
+[02:48:46] supmit: so the admin site needss to have a way to upload data in bulk
+[02:48:51] noamtur: create new script  ?
+[02:49:01] supmit: yes
+[02:49:15] noamtur: can't we add also option on admin to give it url and it will search and collect
+[02:49:19] supmit: some code will be reusable...
+[02:49:51] noamtur: url and some values like what we want to collect
+[02:49:52] supmit: but we need to program the propietart part of the website
+[02:50:09] noamtur: propietar ?
+[02:50:16] supmit: but that would not very difficult...
+[02:50:26] supmit: proprietary
+[02:50:52] supmit: the part that is differnt for all websites
+[02:50:54] noamtur: only if that proprietary will be in a form of a form and menus
+[02:51:13] supmit: didn't get you...
+[02:51:59] supmit: Do you want to be able to configure scripts in admin?
+[02:52:11] noamtur: so admin goes to back end site , add url and some other fields ( chose menus ) including the info and fields he want to collect and it search the data is collected
+[02:52:14] noamtur: yes
+[02:52:54] noamtur: plus the option to add info ( products and more )  to the table .
+[02:52:59] noamtur: db
+[02:53:01] supmit: well, that would be difficult.. since every website has goit some of its content/HTML very specific to them
+[02:53:25] noamtur: ok…
+[02:53:29] supmit: So a bit of coding will be necesary
+[02:53:44] noamtur: how much coding thats the question
+[02:54:19] noamtur: assume the admin have no experience but can do simple tasks
+[02:54:33] supmit: not much really... may be 4-5 hors for investigating the site, coding and then testing
+[02:55:04] supmit: well, he will have to know how to write the code for HTML parsing....
+[02:55:25] supmit: Because that is what is different from site to site
+[02:56:46] noamtur: ok , let start by creating a code for controlling the table , and having the option to add neew store , it will ask you for the code and you upload it ( as a file ) that will add that store and and run that script on a schedule …. basically each of the stores - including the existing one will run on schedule , which you can change on the admin side …
+[02:57:39] noamtur: plus I want the option to upload file to the admin side with a table formated like db , and the data will be added to the db ...
+[02:57:44] supmit: Yes, that will be very much possible
+[02:58:35] noamtur: ok how many hr will it take you ?
+[02:58:44] supmit: basically you want to dump daat in the DB by uploading a data file (may be in CSV format)?
+[02:58:59] supmit: that will be done...
+[02:59:37] supmit: for admin site creation, I think it will take me about 12 hours end t oend
+[02:59:47] noamtur: yes and also control the scripts schedule , and options to view and edit the data , admin user side for the db basicly
+[03:00:14] noamtur: 12 in what rate ?
+[03:00:55] supmit: What am I charging you now? I don't remember now but I will go with the same rate
+[03:01:13] noamtur: so 120 $ for this admin  >
+[03:01:15] noamtur: ?
+[03:01:24] supmit: ok, yes...
+[03:02:12] noamtur: I will send you mock up of this admin with the function we want to have  tonight after you approve , I will hire you on odesk , ok
+[03:02:14] noamtur: ?
+[03:02:20] noamtur:   work will start tomorrow
+[03:02:26] supmit: it will take me that much time because I  qill develop from scratch
+[03:02:47] supmit: yes, that is fine
+[03:03:11] noamtur: I don't care if its from scratch or template ,as long as it have all the function we want including the running this scripts
+[03:03:30] noamtur: I will list of the above and wait for you approval
+[03:03:41] supmit: thatcdefinitely will be there
+[03:04:10] supmit: Where will you palce the offer? on odesk?
+[03:04:22] noamtur: plus when you get this list , please let me know of time to complete plus the demo time
+[03:04:34] supmit: ok
+[03:05:30] noamtur: Now I have to go to other meeting , Great work so far , resend me you email now so I can this files to you , plus did you upload the new scripts to my server , or send them to me by email
+[03:06:08] noamtur: ?
+[03:06:12] supmit: I will send you by email.. I think I have it...
+[03:06:31] noamtur: the files my email is noamtur@gmail.com
+[03:06:45] supmit: ok... I will send at that address
+[03:06:52] noamtur: I will respond with my files attached
+[03:06:57] noamtur: bye for now talk tomorrow
+[03:06:59] supmit: ok
+[03:07:08] supmit: I will send it in 15 mins
+[03:07:11] supmit: bye
+
+
+
+
+
+<td nowrap align='center'><a href='#' onClick='javascript:runNow(\"".$crawlerid."\", \"".$sessid"\", \"".$username."\");'>Start Crawler Now</a></td>
+
+<td nowrap><b>Run Now</b></td>
+
+
+=============================================================================================================================
+Sunday 7:30 pm - 28/10/2013 meeting with Lior
+
+Complete meta data extraction from costco, walmart and safeway.
+
+Bradley's work
+
+
+
+sorry , user: supmit
+[06:28:55] noamtur: password :
+[06:29:01] noamtur: Aw9Ha#s5
+[06:29:51] noamtur: domain: INSIDENOLOGY.COM
+[06:31:03] noamtur: ftp url: bba.a80.myftpupload.com
+[06:31:12] noamtur: please confirm its working for you
+[06:31:28] noamtur: and tell me when it will be ready ...
+[08:41:04] noamtur: Did you get the information ?
+
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', '27', '1')
+
+GoDaddy password: Spmprx13@
+Call-in PIN: 2341
+Customer Number: 73165291
+
+
+=====================================================================================================================
+
+
+ [15-11-2013 06:28:34] noamtur: user name : summit
+[15-11-2013 06:28:52] noamtur: sorry , user: supmit
+[15-11-2013 06:28:55] noamtur: password :
+[15-11-2013 06:29:01] noamtur: Aw9Ha#s5
+[15-11-2013 06:29:51] noamtur: domain: INSIDENOLOGY.COM
+[15-11-2013 06:31:03] noamtur: ftp url: bba.a80.myftpupload.com
+[15-11-2013 06:31:12] noamtur: please confirm its working for you
+[15-11-2013 06:31:28] noamtur: and tell me when it will be ready ...
+[15-11-2013 08:41:04] noamtur: Did you get the information ?
+[15-11-2013 20:51:06] supmit: yes... I will check it in an hour or so... I will get back to you if I  face any issues
+[15-11-2013 20:51:25] supmit: Tomorrow I will set up and deliver

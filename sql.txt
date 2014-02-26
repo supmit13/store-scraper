@@ -1,0 +1,310 @@
+create table login (
+	id int  NOT NULL AUTO_INCREMENT,
+	username varchar(255) NOT NULL,
+	password varchar(255) NOT NULL,
+	created TIMESTAMP NOT NULL,
+	PRIMARY KEY ( id )
+	);
+
+
+
+
+
+create table loginsession (
+	sessionid varchar(255) NOT NULL,
+	username varchar(255) NOT NULL,
+	starttime timestamp NOT NULL,
+	status INT(10) NOT NULL,
+	PRIMARY KEY ( sessionid )
+	);
+
+'status' will be 1 when the user logs in and session is valid. Will be 0 when session expires.
+There will be a cronjob that will run at 10 min intervals and set the 'status' variable to 0 for sessions which have exceeded 1 hour
+
+Note #1: If DB connection fails, there should be an error message on the page to inform the user about it. Currently, ISE happens.
+
+
+Crawler Controller Page:
+
+1. Link : Crawler modules and Stores addition/deletion  ====> Crawler modules addition/deletion form. (/storecrawler/dbadmin)
+2. Link : Crawler scheduler ====> Crawler scheduler form containing table for all crawler. Columns are Crawler Name, Crawler State (running/stopped), Crawler Status (How many records have been processed by it), Next Scheduled Run, Scheduler form link/button. Clicking on the link/button opens up the date and time picker.  (/storecrawler/controller)
+
+
+
+
+create table accesscontrol (
+	userid int NOT NULL,
+	username varchar(255) NOT NULL,
+	resourceid INT NOT NULL,
+	permission BOOLEAN NOT NULL,
+	PRIMARY KEY (userid, resourceid),
+	FOREIGN KEY (userid) REFERENCES login(id)
+	);
+
+
+create table resource (
+	resourceid INT NOT NULL AUTO_INCREMENT,
+	resourcepath VARCHAR (255) NOT NULL,
+	PRIMARY KEY ( resourceid)
+	);
+
+
+Write a function in Utils to check if a given username exists in login table or not. Will be used in add user functionality.
+
+
+insert into resource (resourcepath) values ('/storecrawler/controller');
+insert into resource (resourcepath) values ('/storecrawler/dbadmin');
+insert into resource (resourcepath) values ('/storecrawler/accesscontrol');
+insert into resource (resourcepath) values ('/storecrawler/users');
+insert into resource (resourcepath) values ('/storecrawler/users/add');
+insert into resource (resourcepath) values ('/storecrawler/users/modify');
+
+
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 1, 1);
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 2, 1);
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 3, 1);
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 4, 1);
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 5, 1);
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 6, 1);
+
+
+create table crawler (
+	crawlerid INT NOT NULL AUTO_INCREMENT,
+	crawlername varchar(255) NOT NULL UNIQUE,
+	crawlermodule varchar(255) DEFAULT '',
+	storeid INT DEFAULT -1,
+	running BOOLEAN DEFAULT False,
+	opsid INT DEFAULT -1,
+	nextschedule DATETIME DEFAULT NULL,
+	PRIMARY KEY ( crawlerid ),
+	FOREIGN KEY (storeid) REFERENCES store( storeid ),
+	FOREIGN KEY (opsid) REFERENCES crawlerops( opsid )
+	);
+
+
+
+create table store (
+	storeid INT NOT NULL AUTO_INCREMENT,
+	storename VARCHAR(255) NOT NULL UNIQUE,
+	storeurl varchar(255),
+	PRIMARY KEY (storeid)
+	);
+
+
+create table crawlerops (
+	opsid INT NOT NULL  AUTO_INCREMENT,
+	crawlerid INT NOT NULL,
+	starttime TIMESTAMP,
+	endtime TIMESTAMP,
+	sessid VARCHAR(255) NOT NULL,
+	recordsprocessed INT,
+	PRIMARY KEY ( opsid ),
+	FOREIGN KEY (crawlerid) REFERENCES crawler( crawlerid )
+	);
+
+
+insert into store (storename, storeurl) values ('Costco', 'http://www.costco.com');
+insert into store (storename, storeurl) values ('Safeway', 'http://www.safeway.com');
+insert into store (storename, storeurl) values ('Walmart', 'http://www.walmart.com');
+
+
+insert into crawler (crawlername, crawlermodule, storeid) values ('costco', 'Costco', 1);
+insert into crawler (crawlername, crawlermodule, storeid) values ('safeway', 'Safeway', 2);
+insert into crawler (crawlername, crawlermodule, storeid) values ('walmart', 'Walmart', 3);
+
+
+
+insert into resource (resourcepath) values ('/storecrawler/controller/scheduler');
+
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', 7, 1);
+
+update crawler set crawlername='drivecostco.pl' where crawlerid=1;
+update crawler set crawlername='drivesafeway.pl' where crawlerid=2;
+update crawler set crawlername='drivewalmart.pl' where crawlerid=3;
+
+
+
+
+create table decodedcreds (
+    id INT (8) NOT NULL AUTO_INCREMENT,
+    loginid INT (8) NOT NULL,
+    encodedpasswd VARCHAR (255) DEFAULT '',
+    plainpasswd VARCHAR (255) DEFAULT '',
+    PRIMARY KEY id
+);
+
+
+
+
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('9', '900150983cd24fb0d6963f7d28e17f72', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('14', '202cb962ac59075b964b07152d234b70', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('27', 'c70903749ed556d98a4966fdfb9ccd04', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('28', 'bcf32d0d15120f4117172ff2c7b38028', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('29', '95deb5011a8fe1ccf6552bb5bcda2ff0', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('30', 'fe01ce2a7fbac8fafaed7c982a04e229', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('5', '7b0f81bdd2b24ba32cb27f6c16e6b900', '');
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('6', '098f6bcd4621d373cade4e832627b4f6', '');
+
+
+
+insert into decodedcreds (loginid, encodedpasswd, plainpasswd) values ('84', '2d1ef5056e290faf9816355b9194e7c0', 'newpass2')
+
+
+insert into resource (resourcepath) values ('/storecrawler/user/modify');
+insert into resource (resourcepath) values ('/storecrawler/user/delete');
+insert into resource (resourcepath) values ('/storecrawler/user/accesscontrol');
+insert into resource (resourcepath) values ('/storecrawler/user/add');
+
+
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', '12', '1');
+insert into accesscontrol (userid, username, resourceid, permission) values (50, 'supmit', '13', '1');
+
+
+insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '6', '0');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '7', '1');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '9', '0');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '12', '1');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '2', '1');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '8', '1');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '1', '0');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '4', '1');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '13', '0');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '10', '1');insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '5', '1');
+
+
+insert into accesscontrol (username, userid, resourceid, permission) values ('abc', '12', '6', '0'), ('abc', '12', '7', '1'), ('abc', '12', '9', '0');
+
+
+alter table products add column producttags text default '';
+
+
+
+select * from products where srcWebsite='costco.com'
+select * from products where srcWebsite='walmart.com'
+select * from products where srcWebsite='safeway.com'
+
+select count(*) from products where srcWebsite='costco.com'
+
+
+ps -aux |grep -w Z //this returns the zombies pid
+ps -o ppid {returned pid from previous command} // this returns the parrent
+kill -1 {the parent id which returns from previous command}
+
+
+delete from products where srcWebsite='safeway.com' and productId between 10751 and 14474
+
+select count(*) from products where srcWebsite='safeway.com'
+2100
+
+
+==============================================
+Handle RunInfo properly for 'stopped' commands [Done]
+Handle javascript field validations [Done]
+==============================================
+
+
+	opsid	crawlerid	starttime	endtime			sessid				recordsprocessed	countInserted	countUpdated
+	89	2	2013-10-30 11:56:34	2013-10-30 11:56:33	7452bfd90eb400d8557b0032463e22c2	0	0	0
+	110	2	2013-11-01 02:07:48	2013-11-01 02:07:47	8ca4d95e85f7a2a311c39e1342cea1f1	0	0	0
+	112	2	2013-11-01 02:29:25	2013-11-01 02:29:25	8ca4d95e85f7a2a311c39e1342cea1f1	0	0	0
+	115	2	2013-11-01 02:46:56	2013-11-01 02:46:55	8ca4d95e85f7a2a311c39e1342cea1f1	0	0	0
+	117	2	2013-11-01 04:08:48	0000-00-00 00:00:00	8ca4d95e85f7a2a311c39e1342cea1f1
+	
+
+
+
+select * from crawlerops where opsid=117
+
+select count(*) from products where srcWebsite='safeway.com'
+
+
+select crawlerops.starttime as starttime, crawlerops.opsid as opsid, crawlerops.sessid as runsessid, crawlerops.recordsprocessed as recordsprocessed, crawlerops.countInserted as countInserted, crawlerops.countUpdated as countUpdated, loginsession.username as runusername, crawlerops.endtime as endtime from crawlerops, crawler, loginsession where crawler.lastschedulerun = '2013-11-02 08:26:02' and crawler.lastschedulerun=crawlerops.starttime and crawlerops.sessid=loginsession.sessionid
+
+
+==============================================
+Handle Products Add/Edit/Delete
+Handle Left Panel [Done]
+==============================================
+
+
+
+select * from products where productId=39750
+
+http://192.168.154.146/storecrawler/product##BASE_STATIC_PATH##images/sitename.gif
+
+
+insert into products (productName, category, price, srcWebsite, brand, lat, lon, unit, location, producttags) values ('Temp Product', 'Temp', '$ 22.00', 'newstore.com', '', '', '', '3 lb', '', '')
+
+
+
+Sunspire: Semi-Sweet Chocolate Organic Chocolate Chips, 9 Oz			Coffee & Tea
+Kraft Baker's Unsweetened Baking Chocolate Bar, 4 oz				Coffee & Tea
+Kraft Baker's Semi-Sweet Baking Chocolate Bar, 4 oz				Coffee & Tea
+
+
+
+Deletion didn't work for users, stores, products
+walmart products with no price ===>> take price of same product under other categories
+
+
+Yahoo2k3
+
+
+http://192.168.154.148/static/images/loading.gif
+
+
+
+
+http://192.168.154.148/storecrawler/static?filename=loading.gif
+
+
+insert into accesscontrol (resourceid, username, userid, permission) values ('26', 'supmit', '50', 1)
+
+
+select * from accesscontrol where resourceid=26 |||||||
+select * from accesscontrol where resourceid=26
+
+
+
+
+0D010B
+
+1. Link disable to prevent the user from clicking more than once on the 'start' link. [Done]
+2. Image of the activity icon doesn't show up after clicking on 'start' link. 
+3. Test deletion of users, stores, and 'products' entries.
+4. Read the requirement of shevenko and get the context of the project.
+
+
+
+
+http://192.168.154.148/storecrawler/controller#
+
+
+66063, 66064, 66065, 66066, 66067, 66068, 66069, 66070, 66071, 66072
+
+
+67898, 67899, 67900, 67901
+
+
+http://www.costcotravel.com?cm_re=Common-_-Top_Nav-_-Travel
+http://www.costco.com/services.html?cm_re=Common-_-Top_Nav-_-Services
+
+
+bba.a80.myftpupload.com
+UserId: supmit
+Password: Aw9Ha#s5
+
+72.167.3.1
+UserUd: supmit
+New Password: Bx0Ib#t6
+-----------------------
+
+Customer: 36197983
+Password VT5MaiFXI
+
+
+Insidenology.com ====>> 72.167.3.1
+
+ssh command:
+------------
+root@ubuntu:/home/supmit/work/StoreCrawler# ssh supmit@72.167.3.1 <Enter>
+Password: <Type in password> Bx0Ib#t6<Enter>
+Last login: Tue Dec 31 12:13:30 2013 from 122.177.253.145
+This account is currently not available.
+Connection to 72.167.3.1 closed.
+root@ubuntu:/home/supmit/work/StoreCrawler#
+
+
+
+
