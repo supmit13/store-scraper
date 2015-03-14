@@ -1,0 +1,1 @@
+A set of scripts to crawl and scrape stores and an integrated web application to control the crawling and scraping processes
